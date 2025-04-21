@@ -5,14 +5,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Enable project quotas and casefolding for emulated storage without sdcardfs
-$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
-
 # VNDK
-PRODUCT_TARGET_VNDK_VERSION := 33
+PRODUCT_TARGET_VNDK_VERSION := 31
 
 # API
-PRODUCT_SHIPPING_API_LEVEL := 30
+PRODUCT_SHIPPING_API_LEVEL := 28
 
 # No dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := false
@@ -26,5 +23,5 @@ PRODUCT_PRODUCT_PROPERTIES += \
 	ro.fastbootd.available=true
 
 # Screen
-TARGET_SCREEN_WIDTH := 1440
-TARGET_SCREEN_HEIGHT := 3040
+TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 2340
