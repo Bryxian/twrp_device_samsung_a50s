@@ -1,6 +1,6 @@
-# TWRP Device Tree for the Samsung Galaxy A50 (a50dd)
+# TWRP Device Tree for the Samsung Galaxy A50 (a50)
 
-The Galaxy A50 (codenamed _"a50dd"_) is an upper-mid-range smartphone from Samsung.
+The Galaxy A50 (codenamed _"a50"_) is an upper-mid-range smartphone from Samsung.
 
 It was announced and released in February 2019.
 
@@ -44,14 +44,14 @@ This device tree was tested and is fully compatible with [minimal-manifest-twrp]
 2. In the root folder of the fetched repo, clone the device tree:
 
 ```bash
-git clone https://github.com/PeterKnecht93/android_device_samsung_a50dd -b twrp-12.1 device/samsung/a50dd
+git clone https://github.com/PeterKnecht93/android_device_samsung_a50 -b twrp-12.1 device/samsung/a50
 ```
 
 3. To build:
 
 ```bash
 . build/envsetup.sh
-lunch twrp_a50dd-eng
+lunch twrp_a50-eng
 mka recoveryimage
 ```
 
