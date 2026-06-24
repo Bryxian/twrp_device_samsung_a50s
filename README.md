@@ -45,7 +45,7 @@ This device tree was tested and is fully compatible with [minimal-manifest-twrp]
 2. In the root folder of the fetched repo, clone the device tree:
 
 ```bash
-git clone https://github.com/Bryxian/twrp_device_samsung_a50s -b twrp-12.1 device/samsung/a50sxx
+git clone https://github.com/Bryxian/twrp_device_samsung_a50s -b android-12.1 device/samsung/a50sxx
 ```
 
 3. To build:
