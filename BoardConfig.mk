@@ -21,7 +21,7 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a53
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := universal9611
+TARGET_BOOTLOADER_BOARD_NAME := universal9610
 TARGET_NO_BOOTLOADER := true
 
 # Platform
@@ -39,7 +39,7 @@ LZMA_RAMDISK_TARGETS := recovery,boot
 BOARD_RAMDISK_USE_LZMA := true
 
 BOARD_KERNEL_CMDLINE := \
-    androidboot.hardware=exynos9611 \
+    androidboot.hardware=exynos9610 \
     androidboot.selinux=permissive
 
 BOARD_MKBOOTIMG_ARGS := \
