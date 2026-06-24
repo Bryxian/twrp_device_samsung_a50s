@@ -34,7 +34,7 @@ It was announced and released in September 2019.
 
 ## Kernel source
 
-Available at [FreshROMs/android_kernel_samsung_exynos9610_mint](https://github.com/FreshROMs/android_kernel_samsung_exynos9610_mint)
+Available at [Bryxian/kernel_samsung_universal9611](https://github.com/Bryxian/kernel_samsung_universal9611)
 
 ## How to build
 
