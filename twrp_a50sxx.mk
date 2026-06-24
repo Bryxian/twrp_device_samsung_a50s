@@ -8,7 +8,7 @@
 # Only the below variable(s) need to be changed!
 #
 # Define hardware platform
-PRODUCT_PLATFORM := exynos9610
+PRODUCT_PLATFORM := exynos9611
 
 # The below variables will be generated automatically
 #
