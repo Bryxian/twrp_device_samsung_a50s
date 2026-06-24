@@ -35,8 +35,8 @@ BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
 # RAMDisk Compression
-LZMA_RAMDISK_TARGETS := recovery,boot
-BOARD_RAMDISK_USE_LZMA := true
+# "LZMA_RAMDISK_TARGETS := recovery,boot" is disabled to prevent longer boot
+BOARD_RAMDISK_USE_LZMA := false
 
 BOARD_KERNEL_CMDLINE := \
     androidboot.hardware=exynos9611 \
@@ -96,6 +96,7 @@ TW_THEME := portrait_hdpi
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 162
+TW_SCREEN_BLANK_ON_BOOT := true
 TW_Y_OFFSET := 80
 TW_H_OFFSET := -80
 TW_NO_REBOOT_BOOTLOADER := true
