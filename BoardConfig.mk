@@ -49,7 +49,7 @@ BOARD_MKBOOTIMG_ARGS := \
     --ramdisk_offset 0x01000000 \
     --os_version 14.0.0 \
     --tags_offset 0x00000100 \
-    --header_version 1
+    --header_version 1 \
     --board SRPRL05B001RU
 
 # Partitions
