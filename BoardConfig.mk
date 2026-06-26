@@ -37,6 +37,7 @@ BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 # RAMDisk Compression
 # "LZMA_RAMDISK_TARGETS := recovery,boot" is disabled to prevent longer boot
 BOARD_RAMDISK_USE_LZMA := false
+BOARD_RAMDISK_USE_GZIP := true
 
 BOARD_KERNEL_CMDLINE := \
     androidboot.hardware=exynos9611 \
